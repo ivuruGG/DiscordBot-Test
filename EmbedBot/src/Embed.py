@@ -29,4 +29,4 @@ async def on_ready():
 
     await channel.send(embed=embed) # embedの送信には、embed={定義したembed名}
 
-client.run(TOKEN)
+client.run(prpcess.getevn(CILENT_TOKEN))
