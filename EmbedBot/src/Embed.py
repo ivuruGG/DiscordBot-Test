@@ -1,3 +1,5 @@
+import os
+import token
 import discord
 
 client = discord.Client()
@@ -29,4 +31,4 @@ async def on_ready():
 
     await channel.send(embed=embed) # embedの送信には、embed={定義したembed名}
 
-client.run(prpcess.getevn(CILENT_TOKEN))
+client.run(os.getevn(token))
